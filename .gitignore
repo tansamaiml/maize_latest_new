@@ -1,0 +1,22 @@
+# Python virtual environment
+maize/
+venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large binaries
+*.dll
+*.pyd
+
+# Videos & media
+*.mp4
+*.avi
+*.mov
+
+# OS files
+.DS_Store
+Thumbs.db

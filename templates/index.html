@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maize Detection UI</title>
+</head>
+<body>
+
+<h2>🌱 Plant Population</h2>
+<form action="/plant_population" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <button type="submit">Upload Image</button>
+</form>
+
+<hr>
+
+<h2>🌽 Tassel + Branch (Image)</h2>
+<form action="/tassel_branch_image" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <button type="submit">Upload Image</button>
+</form>
+
+<hr>
+
+<h2>🎥 Tassel Video Counting</h2>
+<form action="/tassel_video" method="post" enctype="multipart/form-data">
+    <input type="file" name="video" required>
+    <button type="submit">Upload Video</button>
+</form>
+
+</body>
+</html>
